@@ -1,0 +1,21 @@
+.button {
+    background-color: rgb(64, 100, 223);
+    width: 160px;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    background-color: rgb(57, 90, 200);
+}

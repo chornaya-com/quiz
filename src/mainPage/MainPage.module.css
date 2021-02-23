@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.background {
+    background-color: rgb(215, 210, 214);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 48px;
+    color: rgb(156, 26, 78);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.headerDescription {
+    font-size: 20px;
+    color: rgb(111, 111, 111);
+}
+
+.textDescription {
+    font-size: 18px;
+    color: rgb(111, 111, 111);
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
