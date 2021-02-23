@@ -1,0 +1,31 @@
+.card {
+    width: 480px;
+    height: 280px;
+    background-color: rgb(251, 141, 91);
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    border-radius: 8px;
+}
+
+.question {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 40px;
+}
+
+.answer {
+    margin: 5px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.answer:hover {
+    color: rgb(64, 100, 223);
+}

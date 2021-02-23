@@ -1,0 +1,8 @@
+.background {
+    background-color: rgb(215, 210, 214);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
