@@ -1,0 +1,125 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "This field is sometimes known as &ldquo;The Dismal Science.&rdquo;",
+      "correct_answer": "Economics",
+      "incorrect_answers": [
+        "Philosophy",
+        "Politics",
+        "Physics"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the first &quot;Team Fortress 2&quot; update to include a war?",
+      "correct_answer": "Sniper vs. Spy Update",
+      "incorrect_answers": [
+        "WAR! Update",
+        "Meet Your Match Update",
+        "Spy Vs. Engineer Update"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In which game does a character say, &quot;Sometimes, I dream about cheese&quot;?",
+      "correct_answer": "Half Life 2",
+      "incorrect_answers": [
+        "Team Fortress 2",
+        "Dark Souls",
+        "Serious Sam: The Second Encounter"
+      ]
+    },
+    {
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Chemistry, how many isomers does Butanol (C4H9OH) have?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is generally considered to be William Shakespeare&#039;s birth date?",
+      "correct_answer": "April 23rd, 1564",
+      "incorrect_answers": [
+        "July 4th, 1409",
+        "September 29th, 1699",
+        "December 1st, 1750"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which city did the former NHL team &quot;The Nordiques&quot; originiate from?",
+      "correct_answer": "Quebec City",
+      "incorrect_answers": [
+        "Houston",
+        "Montreal",
+        "New York"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?",
+      "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
+      "incorrect_answers": [
+        "Cristiano Ronaldo los Santos Diego",
+        "Cristiano Armando Diego Ronaldo",
+        "Cristiano Luis Armando Ronaldo"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which former Star Trek actor directed Three Men and a Baby (1987)?",
+      "correct_answer": "Leonard Nimoy",
+      "incorrect_answers": [
+        "William Shatner",
+        "George Takei",
+        "James Doohan"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who was the winner of &quot;Big Brother&quot; Season 10?",
+      "correct_answer": "Dan Gheesling",
+      "incorrect_answers": [
+        "Bryce Kranyik",
+        "Ryan Sutfin",
+        "Chris Mundorf"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many strings are there on a cello?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "5",
+        "6",
+        "8"
+      ]
+    }
+  ]
+}

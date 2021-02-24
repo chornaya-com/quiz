@@ -1,9 +1,9 @@
 import React from 'react';
 import * as cn from './StartButton.module.css';
-import {IsActivePageContext} from '../App';
+import {AppContext} from '../App';
 
 export function StartButton() {
-    const {startGame} = React.useContext(IsActivePageContext);
+    const {startGame} = React.useContext(AppContext);
 
     return (
         <button className={cn.button} onClick={startGame}>
