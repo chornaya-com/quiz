@@ -6,3 +6,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.header {
+    font-size: 36px;
+    color: rgb(156, 26, 78);
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}

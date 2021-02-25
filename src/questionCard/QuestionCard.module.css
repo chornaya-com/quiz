@@ -1,7 +1,7 @@
 .card {
     width: 480px;
     height: 280px;
-    background-color: rgb(251, 141, 91);
+    background-color: rgb(64, 100, 223);
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
     border-radius: 8px;
@@ -9,8 +9,9 @@
 
 .question {
     margin: 20px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
+    color: white;
 }
 
 .answers {
@@ -19,13 +20,32 @@
     margin: 10px 40px;
 }
 
-.answer {
-    margin: 5px;
-    text-align: left;
+.answer, .correct, .wrong {
+    width: 180px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(253, 190, 66);
+    padding: 6px;
+    margin: 10px 5px;
+    text-align: center;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
+    color: rgb(87, 86, 86);
+}
+
+.correct {
+    background-color: rgb(145,242,207);
+}
+
+.wrong {
+    background-color: rgb(236, 56, 75);
+}
+
+.answer:focus {
+    outline: none;
 }
 
 .answer:hover {
-    color: rgb(64, 100, 223);
+background-color: rgb(251, 171, 60);
+    color: white;
 }

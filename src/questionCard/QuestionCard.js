@@ -7,7 +7,13 @@ export function QuestionCard() {
     const {id, correct_answer, incorrect_answers, question} = activeQuestion;
     const allAnswers = [correct_answer, ...incorrect_answers].sort(() => 0.5 - Math.random());
 
+    const [selectedAnswer, setSelectedAnswer] = React.useState(false);
+
     const showAnswer = () => {
+        if (selectedAnswer === correct_answer) {
+            setSelectedAnswer(true);
+        }
+        console.log(correct_answer, selectedAnswer);
         setTimeout(() => {
             nextQuestion();
         }, 1000);
@@ -18,7 +24,7 @@ export function QuestionCard() {
             <div className={cn.question} key={id} dangerouslySetInnerHTML={{__html: question}} />
             <div className={cn.answers}>
                 {allAnswers.map((answer, i) => (
-                    <div
+                    <button
                         className={cn.answer}
                         onClick={showAnswer}
                         key={i}
