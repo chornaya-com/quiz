@@ -11,6 +11,7 @@ function App() {
     const [activePage, setActivePage] = React.useState('MainPage');
     const [activeQuestionIndex, setActiveQuestionIndex] = React.useState(0);
     const [activeQuestion, setActiveQuestion] = React.useState(questions[0]);
+    const [score, setScore] = React.useState(0);
     const isMainPage = activePage === 'MainPage';
     const isQuestionPage = activePage === 'QuestionPage';
     const isResultPage = activePage === 'ResultPage';
@@ -31,11 +32,18 @@ function App() {
         }
     };
 
+    const increaseCorrectAnswerScore = () => {
+        setScore(score + 1);
+    };
+
     const contextValue = {
+        numberOfQuestions: questions.length,
         startGame,
         activeQuestion,
         activeQuestionIndex,
         nextQuestion,
+        score,
+        increaseCorrectAnswerScore,
     };
 
     return (
