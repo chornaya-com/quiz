@@ -1,6 +1,6 @@
 .card {
     width: 480px;
-    height: 280px;
+    min-height: 240px;
     background-color: rgb(64, 100, 223);
     font-family: 'Source Sans Pro', sans-serif;
     color: black;

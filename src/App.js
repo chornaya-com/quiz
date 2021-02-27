@@ -13,20 +13,25 @@ function App() {
     const [activeQuestionIndex, setActiveQuestionIndex] = React.useState(0);
     const [activeQuestion, setActiveQuestion] = React.useState(questionCards[0]);
     const [score, setScore] = React.useState(0);
+    const [isLoading, setIsLoading] = React.useState(true);
     const isMainPage = activePage === 'MainPage';
     const isQuestionPage = activePage === 'QuestionPage';
     const isResultPage = activePage === 'ResultPage';
 
     React.useEffect(() => {
-        axios
-            .get(url)
-            .then((response) => {
-                setQuestionCards(response.data.results);
-            })
-            .catch((error) => {
-                console.error(error);
-            });
-    }, []);
+        if (isMainPage || isResultPage) {
+            setIsLoading(true);
+            axios
+                .get(url)
+                .then((response) => {
+                    setQuestionCards(response.data.results);
+                    setIsLoading(false);
+                })
+                .catch((error) => {
+                    console.error(error);
+                });
+        }
+    }, [isMainPage, isResultPage]);
 
     const startGame = () => {
         setActivePage('QuestionPage');
@@ -56,6 +61,7 @@ function App() {
         nextQuestion,
         score,
         increaseCorrectAnswerScore,
+        isLoading,
     };
 
     return (
