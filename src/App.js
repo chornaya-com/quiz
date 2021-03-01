@@ -1,7 +1,7 @@
 import React from 'react';
-import {MainPage} from './mainPage/MainPage';
-import {QuestionPage} from './questionPage/QuestionPage';
-import {ResultPage} from './resultPage/ResultPage';
+import {MainPage} from './components/mainPage/MainPage';
+import {QuestionPage} from './components/questionPage/QuestionPage';
+import {ResultPage} from './components/resultPage/ResultPage';
 import axios from 'axios';
 
 export const AppContext = React.createContext();

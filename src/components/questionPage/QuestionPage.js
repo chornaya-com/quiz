@@ -1,7 +1,7 @@
 import React from 'react';
 import * as cn from './QuestionPage.module.css';
 import {QuestionCard} from '../questionCard/QuestionCard';
-import {AppContext} from '../App';
+import {AppContext} from '../../App';
 
 export function QuestionPage() {
     const {activeQuestionIndex, numberOfQuestions} = React.useContext(AppContext);
