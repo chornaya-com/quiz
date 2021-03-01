@@ -13,6 +13,7 @@ Implemented with React (incl. React Context Hook), Firebase and Circle CI integr
 - [x] circle ci setup
 - [x] axios for fetching data
 - [x] material ui for loader
+- [x] useSound for onClick sound effects
 
 ## How To
 ### Install Dependencies

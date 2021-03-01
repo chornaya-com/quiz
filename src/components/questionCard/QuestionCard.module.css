@@ -17,7 +17,8 @@
 .answers {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10px 40px;
+    justify-items: center;
+    padding: 10px 40px;
 }
 
 
@@ -49,4 +50,26 @@
 
 .answer.correct {
     background-color: rgb(145, 242, 207);
+}
+
+@media (max-width: 600px) {
+    .card {
+        margin: 5px;
+        width: 280px;
+        min-height: 168px;
+    }
+
+    .question {
+        margin: 10px 5px;
+        font-size: 18px;
+    }
+.answers {
+    padding: 10px;
+}
+    .answer {
+        width: 100px;
+        margin: 5px 5px 10px 5px;
+        padding: 5px 2px;
+        font-size: 16px;
+    }
 }

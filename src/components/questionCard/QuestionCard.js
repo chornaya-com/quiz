@@ -20,6 +20,9 @@ export function QuestionCard() {
     const [selectedAnswer, setSelectedAnswer] = React.useState(false);
 
     const showAnswer = (answer) => {
+        if (selectedAnswer) {
+            return;
+        }
         setSelectedAnswer(answer);
         if (answer === correct_answer) {
             playRight();

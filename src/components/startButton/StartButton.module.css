@@ -19,3 +19,11 @@
 .button:hover {
     background-color: rgb(57, 90, 200);
 }
+
+@media (max-width: 600px) {
+    .button {
+        width: 120px;
+        height: 50px;
+        font-size: 22px;
+    }
+}

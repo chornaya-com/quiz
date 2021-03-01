@@ -19,3 +19,14 @@
     color: rgb(111, 111, 111);
     margin: 10px 0;
 }
+
+@media (max-width: 600px) {
+    .header {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .score {
+        font-size: 20px;
+    }
+}
