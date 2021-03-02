@@ -21,7 +21,6 @@
     padding: 10px 40px;
 }
 
-
 .answer {
     width: 180px;
     border-radius: 4px;
@@ -37,11 +36,6 @@
 
 .answer:focus {
     outline: none;
-}
-
-.answer:hover {
-    background-color: rgb(251, 171, 60);
-    color: white;
 }
 
 .answer.wrong {
@@ -61,15 +55,22 @@
 
     .question {
         margin: 10px 5px;
-        font-size: 18px;
+        font-size: 16px;
     }
-.answers {
-    padding: 10px;
-}
+    .answers {
+        padding: 10px;
+    }
     .answer {
         width: 100px;
         margin: 5px 5px 10px 5px;
         padding: 5px 2px;
-        font-size: 16px;
+        font-size: 14px;
+    }
+}
+
+@media not all and (pointer: coarse) {
+    .answer:hover {
+        background: rgb(251, 171, 60);
+        color: white;
     }
 }

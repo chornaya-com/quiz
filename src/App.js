@@ -37,6 +37,7 @@ function App() {
         setActivePage('QuestionPage');
         setActiveQuestionIndex(0);
         setActiveQuestion(questionCards[0]);
+        setScore(0);
     };
 
     const nextQuestion = () => {
