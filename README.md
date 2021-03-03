@@ -1,5 +1,5 @@
 # Quiz Game
-[![CircleCI](https://circleci.com/gh/chornaya-com/github-jobs/tree/master.svg?style=svg&circle-token=63f6f27e841f7eff22bbd348eaee6daf742f2c66)](https://circleci.com/gh/chornaya-com/quiz/tree/master)
+[![CircleCI](https://circleci.com/gh/chornaya-com/quiz/tree/master.svg?style=svg&circle-token=63f6f27e841f7eff22bbd348eaee6daf742f2c66)](https://circleci.com/gh/chornaya-com/quiz/tree/master)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 Quiz Game is a web app based on Open Trivia Database API.
